@@ -45,7 +45,7 @@ public class BaiTap19 {
     //dinh nghia phuong thuc xuat mang
     public static void xuatMang(int[] a) {
         for (int x : a) {
-            System.out.print(x + " ");
+            System.out.print(x + "    ");
         }
     }
 
