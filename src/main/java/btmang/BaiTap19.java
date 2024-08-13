@@ -19,7 +19,8 @@ public class BaiTap19 {
         System.out.print("Cho biet so phan tu:");
         n = sc.nextInt();
         //cap phat so phan tu cho mang 
-        a = new int[n];
+        a = new int[n];       
+              
         
         phatSinhMang(a);
         System.out.print("\nMang a:");        
@@ -45,7 +46,7 @@ public class BaiTap19 {
     //dinh nghia phuong thuc xuat mang
     public static void xuatMang(int[] a) {
         for (int x : a) {
-            System.out.print(x + "    ");
+            System.out.print(x + ", ");
         }
     }
 
